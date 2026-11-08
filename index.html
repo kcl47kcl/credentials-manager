@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self'; img-src 'self' data:; connect-src 'none'; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1116">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Credentials Manager">
+<meta name="format-detection" content="telephone=no">
+<title>Credentials Manager</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css" integrity="sha384-hQJyRd85iefQXoAhRG4eIKOfa0Cvjl1gfYoKacOoYiW8qSF2QDoMNKWFR/wD6N1L">
+</head>
+<body>
+<div id="app"><noscript>Credentials Manager requires JavaScript.</noscript></div>
+<script src="lib/argon2.min.js" integrity="sha384-tP0Wy54CKmng7i9EoTlPySD0hBx6Octj0VS6MfwlnUu111MPa+JLm0CCbep6XJ1W"></script>
+<script src="lib/eff-wordlist.js" integrity="sha384-xFp0gl9mdt7dyL9l7l6FyCnR9vUZio4maEC9jyeE293EMhYFU2idYzDw5nrH4bdm"></script>
+<script src="js/crypto.js" integrity="sha384-A9auMInnyW3wtn/FcqSA6/KEiIZadqtfqhjzxB2r5t0MIl3xrpYLbV1oYMNjYsQm"></script>
+<script src="js/store.js" integrity="sha384-U+T/5PUopJveG4JfibHH06X6dQReP/ILR/gHxIAwnZz49RGGUbNnB/xlJuC1Dp0w"></script>
+<script src="js/app.js" integrity="sha384-CtMRsOtHdt9hX8jd4OQpghu5uWMdzK6r4u7aJrw9NHelQTjs+ejoE9tM/iWhRP70"></script>
+</body>
+</html>
